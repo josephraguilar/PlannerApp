@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background: #FFF;
+    font-family: '';
+    height: 100vh;
+}
+
+nav {
+    grid-area: nav;
+}
+
+#container {
+    display:grid;
+    grid-template-rows: 70px auto;
+    height: 100%;
+}
